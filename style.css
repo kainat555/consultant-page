@@ -1,0 +1,30 @@
+.heading{
+    text-align: center;
+    color: purple;
+}
+
+
+#more{
+    text-align: center;
+    color: red;
+    font-size: larger;
+}
+
+
+.link{
+    text-decoration: none;
+    color: red;
+}                                           
+
+
+.appoint{
+    /* margin-left: 70px; */
+    /* margin-top: 20px; */
+    font-size: 2em;
+    text-align: center;
+}
+
+
+.footer{
+    text-align: center;
+}

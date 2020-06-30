@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Consultant page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b0ae396e2b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="container">
+                        <nav class="navbar navbar-expand-lg navbar bg-success">
+                            <a class="navbar-brand text-dark" href="#">FARYA BEAUTY CONSULTANT</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="heading">Hi, I'm an expert Beauty Consultant</h1>
+                    <p id="readmore">I've been in this profession since past thirty years.
+                        <a href="javascript:void(0)" onclick="readMore()"><span class="link"> (read more ..)</span></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3 class="heading">Below are the Pictures of my clients:</h3>
+                    <p><img width="500px" height="500px" id="img" src="before scars pic.jpg" alt=""
+                            onmousemove="changeImage('img' , 'after scars pic.jpg')"
+                            onmouseout="changeImage('img' , 'before scars pic.jpg')">
+                        <img width="500px" height="500px" id="img2" src="before acne pic.jpg" alt=""
+                            onmousemove="changeImage2('img2' , 'after acne.jpg')"
+                            onmouseout="changeImage2('img2' , 'before acne pic.jpg')"><br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="appoint">For Appointment: <br>
+                        <button class="btn" type="button" onclick="appointment()">Click here</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col footer bg-success">
+                    <p class="mt-3">You can also connect with me on social media</p>
+                    <i class="fab fa-facebook mx-3"></i>
+                    <i class="fab fa-twitter mx-3"></i>
+                    <i class="fab fa-google-plus-square mx-3"></i>
+                    <i class="fab fa-youtube mx-3"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
